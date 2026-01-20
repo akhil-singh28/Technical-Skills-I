@@ -3,7 +3,8 @@
 // PSUEDO CODE-
 // 1. iterate and find the max element from the array.
 // 2. Iterate and get the number of element that are not equal to max
-// 3. Increment the count
+// 3. Increment the count.
+
 import java.util.Scanner;
 public class lect_20_Jan {
     public static void main(String[] args) {
@@ -14,14 +15,15 @@ public class lect_20_Jan {
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
-        int max=0;
+        int max=arr[0];
         for(int i=0;i<arr.length;i++){
             if(arr[i]>max){
                 max=arr[i];
             }
         }
         System.out.println(max);
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length;
+            i++){
             if(arr[i]<max){
                 count++;
             }
