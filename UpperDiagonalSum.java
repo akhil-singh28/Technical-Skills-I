@@ -25,4 +25,3 @@
         System.out.println("Sum is:"+sum);
     }
 }
-
