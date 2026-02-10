@@ -6,6 +6,7 @@
 // 3. Increment the count.
 
 import java.util.Scanner;
+
 public class lect_20_Jan {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
