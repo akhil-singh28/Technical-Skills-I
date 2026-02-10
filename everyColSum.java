@@ -1,4 +1,3 @@
-
 // WAP TO FIND SUM OF EVERY COLUMN OF A MATRIX 
 
 import java.util.Scanner;
